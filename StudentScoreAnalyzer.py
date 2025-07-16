@@ -1,7 +1,5 @@
 # 🧠 1. Student Score Analyzer
-
 # Skills: Array slicing, stats, conditions
-
 # What to build:
 # Input names and scores of students (use NumPy arrays).
 # Calculate highest, lowest, average scores.
@@ -32,23 +30,4 @@ print("Toppers: ")
 for name, score in zip(names[above_avg], score[above_avg]):
     print(f"{name}: {score}")
 
-##########CHATGPT ANSWER
 
-# import numpy as np
-
-# dic = {
-#     "Rushi": 100, 
-#     "Rex": 99,
-#     "Tony": 72,
-#     "Fiza": 89
-# }
-
-# names = np.array(list(dic.keys()))
-# scores = np.array(list(dic.values()))
-
-# mean_score = scores.mean()
-# above_avg_mask = scores >= mean_score
-# print(above_avg_mask)
-# print("Toppers:")
-# for name, score in zip(names[above_avg_mask], scores[above_avg_mask]):
-#     print(f"{name} - {score}")
